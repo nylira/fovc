@@ -1,3 +1,7 @@
+cd ../cosmos-site-mockup
+npm run build
+
+cd ../nylira.github.io
 rm -f ./index.html
 rm -rf ./static
 cp -r ../cosmos-site-mockup/dist/* .
