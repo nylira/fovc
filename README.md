@@ -1,10 +1,16 @@
 # Family Office Venture Capital
 
-These are HTML and CSS design mockups for the Family Office Venture Capital site.
+This is the design mockup for the Family Office Venture Capital site. It's written in purely HTML and CSS, and the layouts work in both mobile devices and PCs.
 
-## Demo
+## The Demo
 
-You can view a demo of these pages at [nylira.github.io](https://nylira.github.io/). Feel free to click around and browse. Every page can be viewed.
+You can view a demo of these pages at [nylira.github.io](https://nylira.github.io/).
+
+The demo defaults to the Login page. You can click `Forgot Password` to get to the Forgotten Password page. You can fill out the Login form with anything and press `Login` to get the Companies page. You can also get to the Companies page or Account page just by clicking on the header.
+
+You'll notice there are some validations in place for the Login, Forgot Password, and the Register form. It'll prevent users from submitting empty forms.
+
+Note: You can get to Register page in the header. I realize this doesn't belong on the live version of the site. It's supposed to be a private link for you to send it. I've made it public for easier demoing. You can hide or delete this link.
 
 ## File Contents
 
@@ -18,5 +24,7 @@ There are six HTML pages included:
 6. `company.html` - This is the individual page for a company.
 
 All the CSS resides in `./css/screen.css`.
+
+It's all ready for John Wm to integrate into the real app.
 
 Feel free to message me at peng@nylira.com if you have any questions about the implementation.
